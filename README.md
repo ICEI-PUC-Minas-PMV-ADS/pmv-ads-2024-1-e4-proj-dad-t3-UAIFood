@@ -1,23 +1,25 @@
-# TÍTULO DO PROJETO
+# COMIDAS & CIA 
 
-`CURSO`
+`Análise e Desenvolvimento de Sistemas`
 
-`DISCIPLINA`
+`Projeto de Desenvolvimento`
 
-`SEMESTRE`
+`Eixo 4`
 
 Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* André Policarpo Paiva Miranda
+* Camila Larissa Gonçalves
+* Daniel de Oliveira Marcelino
+* Fernando de Araujo Abreu
+* Hector Florença da Silva Mendes
+* Isabela Aparecida dos Santos
 
 ## Orientador
 
-* Nome completo do professor 1
+* Leonardo Vilela Cardoso
 
 ## Instruções de utilização
 
