@@ -175,15 +175,7 @@ https://trello.com/b/PqT7gCgz/eixo-4-ads
 
 O processo de determinar o orçamento do projeto é uma tarefa que depende, além dos produtos (saídas) dos processos anteriores do gerenciamento de custos, também de produtos oferecidos por outros processos de gerenciamento, como o escopo e o tempo.
 
-| Orçamento  |
-|-------|-------------------------|----|
-|Recursos Necessários|  | (RS) | 
-|Recursos humanos| 300.000  |  
-|Hardware  |18.300  |
-|Rede  |  650   |
-|Software   |  910   |
-|Serviços    |  9.000    |
-|Total     |  328.860    |
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e4-proj-dad-t3-UAIFood/assets/114198140/905eb12f-4045-4fa0-afa6-d2ad401c8f6f)
 
 
 
