@@ -1,13 +1,14 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+Com os avanços tecnológicos permeando todos os aspectos de nossas vidas, os comerciantes modernos precisam se adaptar para alcançar sua clientela online. A busca por conveniência, a falta de tempo para deslocamentos e a oportunidade de comparar preços e aproveitar cupons de desconto, entre outros fatores, têm levado um número crescente de pessoas a optar por fazer suas compras virtualmente.
+Particularmente durante e após a pandemia da COVID-19, muitos comerciantes perceberam a importância de adotar ferramentas digitais para viabilizar a venda de seus produtos. De acordo com um artigo publicado pelo portal de notícias G1, "O comércio digital foi impulsionado pela pandemia e continua sendo a preferência dos brasileiros para consumir. Conforme um levantamento recente conduzido pela Octadesk em parceria com a Opinion Box, 61% dos consumidores realizam mais compras pela internet do que em lojas físicas - e a maioria (78%) afirma comprar uma ou mais vezes por mês." Através do  e-commerce, empresas de todo o mundo têm alcançado mais clientes e superando suas metas de vendas.
+
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
+Nossa equipe de desenvolvedores de sistemas web foi contratada para criar uma aplicação Full Stack para um restaurante de  comida mineira, o Uai Food, sediado em Belo Horizonte. O proprietário, Senhor Francisco Cunha, tem o desejo de expandir sua clientela através do digital e manter o padrão de atendimento excepcional.
+A problemática surge da necessidade do senhor Francisco entrar no mercado de vendas online. Uma vez que ele não tem uma equipe de TI interna,  ele busca uma empresa para desenvolver suas vendas on-line com um custo viável para a sua empresa. Considerando que o alto custo e as taxas elevadas cobradas por empresas desenvolvedoras de software são obstáculos significativos para a entrada da empresa no mundo digital.
 
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
 
 > **Links Úteis**:
 > - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
