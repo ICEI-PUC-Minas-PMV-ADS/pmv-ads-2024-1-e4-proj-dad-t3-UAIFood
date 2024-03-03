@@ -163,9 +163,13 @@ O gráfico de Gantt ou diagrama de Gantt também é uma ferramenta visual utiliz
 
 ## Gerenciamento de Equipe
 
-O gerenciamento adequado de tarefas contribuirá para que o projeto alcance altos níveis de produtividade. Por isso, é fundamental que ocorra a gestão de tarefas e de pessoas, de modo que os times envolvidos no projeto possam ser facilmente gerenciados. 
+O gerenciamento adequado de tarefas contribuirá para que o projeto alcance altos níveis de produtividade. Por isso, é fundamental que ocorra a gestão de tarefas e de pessoas, de modo que os times envolvidos no projeto possam ser facilmente gerenciados. Na gestão do nosso time será utilizado a ferramenta Trello fazendo uso da metodologia Scrum de gestão de projetos e equipes. Segue print do Trello da equipe para conhecimento.
 
-![Simple Project Timeline](img/02-project-timeline.png)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e4-proj-dad-t3-UAIFood/assets/114960971/484b2eb8-0fea-4386-8c11-c5e509dc9ada)
+
+Segue link do Trello
+https://trello.com/b/PqT7gCgz/eixo-4-ads
+
 
 ## Gestão de Orçamento
 
