@@ -8,10 +8,33 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 ## Personas
 
-|NOME     | Informações:                       |                                        |
+|Sabrina Nonato  |         **Idade:** 29 Anos                 |     **Educação:** Graduado em Analise e Desenvolvimento de Sistemas   |
 |--------------------|------------------------------------|----------------------------------------|
-| X | **Idade:**  **Ocupação:**  |X|
-|X |X|X |
+| ![persona01](img/PERSONA01.png) | **Motivaçoes:** Saber os benefícios dos alimentos, ter o controle de consumo de água, lembrete dos horários das refeições |**Frustaçoes:** Desafio em conquistar mercado e atrair clientes para varejo de alimentos diante da conveniência e variedade das grandes empresas. |
+|**Hobbies:** Artesanato, leitura, yoga, caminhadas, fotografia, culinária, |**Localização:** Juiz de Fora - Minas Gerais   |**Área:** Suporte de E - Commerce  |
+
+|Francisco Cunha  |       **Idade:** 56 Anos               |     **Educação:** Graduação em Administração de Empresas    |
+|--------------------|------------------------------------|----------------------------------------|
+| ![persona02](img/PERSONA02.png) | **Motivaçoes:** Desafio em conquistar clientes e se destacar no mercado de comida típica, frente à conveniência e variedade oferecidas pelas grandes redes de alimentação. |**Frustaçoes:** Concorrência desafiadora de grandes redes varejistas de alimentos, e suas plataformas online, que possuem recursos financeiros superiores, apesar dos esforços em qualidade e serviço personalizado da Uai Food. |
+|**Hobbies:** Cozinhar, explorar novos sabores, ler sobre gastronomia e produtos orgânicos. |**Localização:** Belo Horizonte - Minas Gerais |**Área:** Proprietário de varejo de um mercado de alimentos, especializado em produtos gourmet e orgânicos.  |
+
+|João Dos Santos  |   **Idade:** 31 Anos           |**Educação:** Graduado em Educação Física.|
+|--------------------|------------------------------------|----------------------------------------|
+| ![persona03](img/PERSONA03.png) | **Motivaçoes:** Desfrutar do sabor autêntico da comida típica mineira, mantendo o físico saudável e aprimorando a qualidade de vida. |**Frustaçoes:** Lamento profundo pela falta de comida mineira autêntica no restaurante |
+|**Hobbies:** Explorar receitas culinárias e assistir séries de comida para se divertir e relaxar, combinando paixão por gastronomia e entretenimento.  |**Localização:** Sete Lagoas - Minas Gerais |**Área:** Atuação em treinamento físico e condicionamento físico.|
+
+|Laura Mendes |         **Idade:** 27 Anos   |     **Educação:** Graduado em Fotografia         |
+|--------------------|------------------------------------|----------------------------------------|
+| ![persona04](img/PERSONA04.png) | **Motivaçoes:** Explorar os sabores autênticos da culinária mineira e apreciar a conveniência de personalizar seus pedidos por meio do aplicativo do restaurante, a fim de otimizar seu tempo e desfrutar de refeições feitas sob medida.| **Frustaçoes:** Não ter muito tempo para desfrutar tranquilamente de uma refeição no restaurante e acabar recorrendo a opções rápidas|
+|**Hobbies:**  Fotografia gastronômica e experimentação culinária. |**Localização:** Buritis - Minas Gerais   |**Área:** Atua profissionalmente como fotógrafa autônoma  |
+
+
+|Davi Oliver  |         **Idade:** 27 Anos             |     **Educação:** Estudante de Medicina em uma universidade renomada.        |
+|--------------------|------------------------------------|----------------------------------------|
+| ![persona05](img/PERSONA05.png) | **Motivaçoes:** Recém-chegado a Minas, busca explorar e se encantar pela comida mineira enquanto se dedica aos estudos de medicina. |**Frustaçoes:** Com pouco tempo disponível devido aos estudos intensivos, enfrenta dificuldades para desfrutar tranquilamente da comida mineira que tanto ama.|
+**Hobbies:** Dedica seu tempo livre à leitura, mergulhando em diferentes gêneros literários para relaxar e expandir seus horizontes.|**Localização:**  Nova Lima - Minas Gerais |**Área:** Área acadêmica voltada para a pesquisa em neurologia. |
+
+
 
 ## Histórias de Usuários
 
@@ -19,8 +42,12 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|Francisco Cunha, Empresário  | Efetuar o pedido do cliente, usando o sistema do restaurante.   | Atender o cliente seguindo as diretrizes da cozinha e da gestão, utilizando a mesma base de dados, garantindo a conformidade com as regras de negócio. |
+|Davi Oliver,Universitário | Comprar online e retirar meu pedido quando ele já estiver pronto  | Desfrutar de refeições frescas sem a necessidade de prepará-las pessoalmente. |
+| Davi Oliver, Universitário  | Quero conhecer mais sobre o restaurante, sua história e os pratos oferecidos antes de decidir fazer um pedido | Para fazer uma escolha consciente e segura antes de comprar online no restaurante |
+|Laura Mendes, Fotógrafa | Ter a opção de pagar diretamente pelo aplicativo do restaurante | Agilizar o processo de compra e proporcionar maior comodidade. |
+|Laura Mendes, Fotógrafa | Aproveitar ofertas exclusivas e descontos especiais ao fazer pedidos pelo aplicativo do restaurante.| Para economizar dinheiro e desfrutar de vantagens exclusivas ao pedir através do aplicativo do restaurante de comida mineira|
+|João Dos Santos, Professor | Uma opção de personalizar meu pedido através do aplicativo do restaurante |Buscas uma experiência gastronômica adaptada às suas preferências individuais. |
 
 Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
