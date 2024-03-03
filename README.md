@@ -6,7 +6,7 @@
 
 `Eixo 4`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+Nossa equipe de desenvolvedores de sistemas web foi contratada para criar uma aplicação Full Stack para um restaurante de  comida mineira, o Uai Food, sediado em Belo Horizonte. O proprietário, Senhor Francisco Cunha, tem o desejo de expandir sua clientela através do digital e manter o padrão de atendimento excepcional.
 
 ## Integrantes
 
