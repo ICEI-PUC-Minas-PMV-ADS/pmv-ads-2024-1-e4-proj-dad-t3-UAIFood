@@ -43,14 +43,3 @@ Adicione informações sobre o público-alvo por meio de uma descrição textual
 > - 
 
 
-## Equipe: 
-- André Policarpo Paiva Miranda
-- Camila Larissa Gonçalves
-- Daniel de Oliveira Marcelino
-- Fernando de Araújo Abreu
-- Hector Florença da silva mendes
-- Isabela Aparecida dos Santos
-
-  ## Professor:
-  
-  - Leonardo Vilela Cardoso
