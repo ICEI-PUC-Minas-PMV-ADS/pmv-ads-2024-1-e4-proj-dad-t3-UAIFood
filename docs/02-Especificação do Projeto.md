@@ -91,15 +91,15 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |]
-|RF-003| xxxxxxxxxxxx | xxxx |
-|RF-004| xxxxxxxxxxxx | xxxx |
-|RF-005| xxxxxxxxxxxx | xxxx |
-|RF-006| xxxxxxxxxxxx | xxxx |
-|RF-007| xxxxxxxxxxxx | xxxx |
-|RF-008| xxxxxxxxxxxx | xxxx |
-|RF-009| xxxxxxxxxxxx | xxxx |
+|RF-001| O perfil Adm, precisa ser capaz de editar as informações do aplicativo | ALTA | 
+|RF-002| O Adm precisa ter acesso aos dados de historicidade do sistema.   | ALTA  |]
+|RF-003| Os usuários devem ser capazes de selecionar os alimentos a partir de um banco de dados abrangente. | ALTA  |
+|RF-004| O aplicativo deve apresentar Oferecer a opção de realizar pedidos online para entrega em domicílio ou retirada no local, com a possibilidade de personalizar os pedidos de acordo com as preferências do cliente. deve exibir o menu completo do restaurante, incluindo opções de refeições, bebidas e preços atualizados | MÉDIA  |
+|RF-005| Integrar métodos de pagamento seguros para que os clientes possam pagar pelos pedidos online de forma conveniente. | ALTA  |
+|RF-006| Fornecer informações detalhadas sobre o restaurante, como horário de funcionamento, localização, informações de contato e um breve histórico ou descrição da culinária oferecida. | ALTA  |
+|RF-007| Disponibilizar um sistema de suporte técnico e atendimento ao cliente eficiente para ajudar os clientes com quaisquer dúvidas, problemas técnicos ou questões relacionadas aos pedidos. | ALTA  |
+|RF-008| Ter uma seção dedicada a listar eventos especiais, promoções sazonais e ofertas exclusivas para incentivar os clientes a retornarem ao restaurante. | BAIXA |
+|RF-009| Notificação para cada pedido realizado no site  | BAIXA |
 
 
 
@@ -107,28 +107,14 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA |
-|RNF-003| xxxxxxxxxxxx | xxxx |
-|RNF-004| xxxxxxxxxxxx | xxxx |
-|RNF-005| xxxxxxxxxxxx | xxxx |
-|RNF-006| xxxxxxxxxxxx | xxxx |
+|RNF-001| A interface de aplicação deve ser fácil de usar, com layouts claros e navegação lógica. | MÉDIA | 
+|RNF-002| O aplicativo deve ser acessível para pessoas com deficiências visuais, motoras ou auditivas. |  ALTA |
+|RNF-003| O aplicativo deve ser compatível com o sistema operacional Android | ALTA |
+|RNF-004| O sistema utilizará uma API Externa para auxílio no banco de dados | ALTA |
+|RNF-005| Será utilizada  as seguintes tecnologias: React-native, Java-script,CSS, HTML, Flask, PostgresSQL, C++, C#, JAVA | MÉDIA |
+|RNF-006| Certificar-se de que o site seja compatível com uma ampla variedade de navegadores da web (Chrome, Firefox, Safari, etc.) e dispositivos (desktops, laptops, tablets, smartphones), garantindo uma experiência consistente em diferentes plataformas. | ALTA |
 
 
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
 
 ## Restrições
 
@@ -136,14 +122,10 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
+|01| Não roda em IOS |
+|02| Aplicativo em Português  |
+|03| O projeto deverá ser entregue até o final do semestre |
 
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
 
 ## Diagrama de Casos de Uso
 
