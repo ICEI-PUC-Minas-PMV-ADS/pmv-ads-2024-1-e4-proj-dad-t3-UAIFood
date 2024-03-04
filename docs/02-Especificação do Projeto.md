@@ -91,15 +91,15 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| O perfil Adm, precisa ser capaz de editar as informações do aplicativo | ALTA | 
+|RF-001| O perfil Adm, precisa ser capaz de editar as informações do aplicativo. | ALTA | 
 |RF-002| O Adm precisa ter acesso aos dados de historicidade do sistema.   | ALTA  |]
 |RF-003| Os usuários devem ser capazes de selecionar os alimentos a partir de um banco de dados abrangente. | ALTA  |
-|RF-004| O aplicativo deve apresentar Oferecer a opção de realizar pedidos online para entrega em domicílio ou retirada no local, com a possibilidade de personalizar os pedidos de acordo com as preferências do cliente. deve exibir o menu completo do restaurante, incluindo opções de refeições, bebidas e preços atualizados | MÉDIA  |
+|RF-004| O aplicativo deve apresentar Oferecer a opção de realizar pedidos online para entrega em domicílio ou retirada no local, com a possibilidade de personalizar os pedidos de acordo com as preferências do cliente. deve exibir o menu completo do restaurante, incluindo opções de refeições, bebidas e preços atualizados. | MÉDIA  |
 |RF-005| Integrar métodos de pagamento seguros para que os clientes possam pagar pelos pedidos online de forma conveniente. | ALTA  |
 |RF-006| Fornecer informações detalhadas sobre o restaurante, como horário de funcionamento, localização, informações de contato e um breve histórico ou descrição da culinária oferecida. | ALTA  |
 |RF-007| Disponibilizar um sistema de suporte técnico e atendimento ao cliente eficiente para ajudar os clientes com quaisquer dúvidas, problemas técnicos ou questões relacionadas aos pedidos. | ALTA  |
 |RF-008| Ter uma seção dedicada a listar eventos especiais, promoções sazonais e ofertas exclusivas para incentivar os clientes a retornarem ao restaurante. | BAIXA |
-|RF-009| Notificação para cada pedido realizado no site  | BAIXA |
+|RF-009| Notificação para cada pedido realizado no site.  | BAIXA |
 
 
 
@@ -109,9 +109,9 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |-------|-------------------------|----|
 |RNF-001| A interface de aplicação deve ser fácil de usar, com layouts claros e navegação lógica. | MÉDIA | 
 |RNF-002| O aplicativo deve ser acessível para pessoas com deficiências visuais, motoras ou auditivas. |  ALTA |
-|RNF-003| O aplicativo deve ser compatível com o sistema operacional Android | ALTA |
-|RNF-004| O sistema utilizará uma API Externa para auxílio no banco de dados | ALTA |
-|RNF-005| Será utilizada  as seguintes tecnologias: React-native, Java-script,CSS, HTML, Flask, PostgresSQL, C++, C#, JAVA | MÉDIA |
+|RNF-003| O aplicativo deve ser compatível com o sistema operacional Android. | ALTA |
+|RNF-004| O sistema utilizará uma API Externa para auxílio no banco de dados. | ALTA |
+|RNF-005| Será utilizada  as seguintes tecnologias: React-native, Java-script,CSS, HTML, Flask, PostgresSQL, C++, C#, JAVA. | MÉDIA |
 |RNF-006| Certificar-se de que o site seja compatível com uma ampla variedade de navegadores da web (Chrome, Firefox, Safari, etc.) e dispositivos (desktops, laptops, tablets, smartphones), garantindo uma experiência consistente em diferentes plataformas. | ALTA |
 
 
