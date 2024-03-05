@@ -91,15 +91,24 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| O perfil Adm, precisa ser capaz de editar as informações do aplicativo. | ALTA | 
-|RF-002| O Adm precisa ter acesso aos dados de historicidade do sistema.   | ALTA  |]
-|RF-003| Os usuários devem ser capazes de selecionar os alimentos a partir de um banco de dados abrangente. | ALTA  |
-|RF-004| O aplicativo deve apresentar Oferecer a opção de realizar pedidos online para entrega em domicílio ou retirada no local, com a possibilidade de personalizar os pedidos de acordo com as preferências do cliente. deve exibir o menu completo do restaurante, incluindo opções de refeições, bebidas e preços atualizados. | MÉDIA  |
+|RF-001| O perfil Adm, precisa ser capaz de editar as informações do site . | ALTA | 
+|RF-002| O perfil adm só está disponivel na versão WEB   | ALTA  |]
+|RF-003| Os usuários devem ser capazes de selecionar os alimentos a partir de um banco de dados. | ALTA  |
+|RF-004| A aplicação deve oferecer a opção de realizar pedidos online para entrega em domicílio ou retirada no local | ALTA  |
 |RF-005| Integrar métodos de pagamento seguros para que os clientes possam pagar pelos pedidos online de forma conveniente. | ALTA  |
-|RF-006| Fornecer informações detalhadas sobre o restaurante, como horário de funcionamento, localização, informações de contato e um breve histórico ou descrição da culinária oferecida. | ALTA  |
-|RF-007| Disponibilizar um sistema de suporte técnico e atendimento ao cliente eficiente para ajudar os clientes com quaisquer dúvidas, problemas técnicos ou questões relacionadas aos pedidos. | ALTA  |
-|RF-008| Ter uma seção dedicada a listar eventos especiais, promoções sazonais e ofertas exclusivas para incentivar os clientes a retornarem ao restaurante. | BAIXA |
-|RF-009| Notificação para cada pedido realizado no site.  | BAIXA |
+|RF-006| Fornecer informações detalhadas sobre o restaurante, como horário de funcionamento, localização, informações de contato e um breve histórico ou descrição da culinária oferecida. | BAIXA  |
+|RF-007| Disponibilizar um sistema de suporte técnico e atendimento ao cliente eficiente para ajudar os clientes com quaisquer dúvidas, problemas técnicos ou questões relacionadas aos pedidos. |MÉDIA  |
+|RF-008| Ter uma seção dedicada a listar eventos especiais, promoções sazonais e ofertas exclusivas para incentivar os clientes a retornarem ao restaurante. | MÉDIA|
+|RF-009| O usuario irá receber uma notificação sobre o status do seu pedido  | MÉDIA|
+|RF-010| A aplicação deve perimiti ao usúario a possibilidade de personalizar os pedidos de acordo com sua preferências.| MÉDIA |
+|RF-011| O ADM poderá alterar os staus do pedido  | BAIXA|
+|RF-012| O usuario poderá fazer um cadastro no sistema  | ALTA |
+|RF-013| O usuario poderá fazer fazer alteração dos seus dados no sistema | ALTA |
+|RF-014| O perfil adm só está disponivel na versão WEB | ALTA |
+|RF-015| O adm conseguirá altera o status dos produtos como: disponivel e indisponivel | ALTA |
+
+
+
 
 
 
@@ -113,6 +122,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-004| O sistema utilizará uma API Externa para auxílio no banco de dados. | ALTA |
 |RNF-005| Será utilizada  as seguintes tecnologias: React-native, Java-script,CSS, HTML, Flask, PostgresSQL, C++, C#, JAVA. | MÉDIA |
 |RNF-006| Certificar-se de que o site seja compatível com uma ampla variedade de navegadores da web (Chrome, Firefox, Safari, etc.) e dispositivos (desktops, laptops, tablets, smartphones), garantindo uma experiência consistente em diferentes plataformas. | ALTA |
+|RNF-006| O sistema do restaurante deve estar disponível e acessível aos clientes durante o horário comercial. Isso envolve garantir que o site esteja online, os sistemas de reservas funcionem corretamente e os pedidos online sejam processados sem interrupções. | ALTA |
 
 
 
@@ -123,8 +133,19 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
 |01| Não roda em IOS |
-|02| Aplicativo em Português  |
+|02| O sistema não irá fornecer o acompanhamento da entrega   |
 |03| O projeto deverá ser entregue até o final do semestre |
+|04| A equipe não pode subcontratar o desenvolvimento do trabalho|
+|05| A platarma se compromete em não compartlhar histórico de pesquisa, lacalização em tempo real e dados sensiveis|
+|06| O projeto do site deve ser desenvolvido dentro de um orçamento definido para evitar custos excessivos.|
+
+
+
+
+
+
+
+
 
 
 ## Diagrama de Casos de Uso
