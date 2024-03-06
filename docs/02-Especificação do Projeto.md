@@ -150,7 +150,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 ## Diagrama de Casos de Uso
 
-![Diagrama-caso-de-uso](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e4-proj-dad-t3-UAIFood/assets/78970776/b44d9590-7fc4-4474-96ff-f831a64be319)
+![Diagrama-caso-de-uso](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e4-proj-dad-t3-UAIFood/assets/78970776/5b6d34e7-69de-425a-a5ce-c339736abc9a)
 
 # Matriz de Rastreabilidade
 
