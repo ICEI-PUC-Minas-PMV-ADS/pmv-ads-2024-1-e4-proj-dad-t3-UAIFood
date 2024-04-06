@@ -23,7 +23,6 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Diagramas d
 
 ## Wireframes
 
-[![Exemplo de Wireframe](img/wireframe-example.png)](https://www.figma.com/file/W9Ixm1itxBSZqAJD6r7Jea/UAIFood?type=design&node-id=0-1&mode=design&t=W5Iew4o69pLauzmp-0)
 
 Link do Figma:(https://www.figma.com/file/W9Ixm1itxBSZqAJD6r7Jea/UAIFood?type=design&node-id=0-1&mode=design&t=W5Iew4o69pLauzmp-0)
 
