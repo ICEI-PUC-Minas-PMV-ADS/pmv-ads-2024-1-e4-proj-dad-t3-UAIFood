@@ -1,0 +1,17 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = APIUAIFood
+build_property.RootNamespace = APIUAIFood
+build_property.ProjectDir = C:\Fernando\Cursos\Puc-Minas\Tecn_ADS\Eixo 4_2024-1\Microfundamentos\API e Web Service\APIUAIFood\APIUAIFood\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Fernando\Cursos\Puc-Minas\Tecn_ADS\Eixo 4_2024-1\Microfundamentos\API e Web Service\APIUAIFood\APIUAIFood
+build_property._RazorSourceGeneratorDebug = 
