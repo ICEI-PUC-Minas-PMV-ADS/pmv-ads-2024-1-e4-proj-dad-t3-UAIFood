@@ -10,6 +10,17 @@ Descreva aqui a metodologia de trabalho do grupo para atacar o problema. Defini�
 Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito deverá ser apresentada em uma tabela que especifica que detalha Ambiente, Plataforma e Link de Acesso. 
 Nota: Vide documento modelo do estudo de caso "Portal de Notícias" e defina também os ambientes e frameworks que serão utilizados no desenvolvimento de aplicações móveis.
 
+Ambiente
+- Ambiente Web utilizando o GitHub
+
+Plataforma
+- Banco de dados Mongo DB
+- Visual Studio 2022
+- GitHub
+
+Link de Acesso
+
+
 ## Controle de Versão
 
 A ferramenta de controle de versão adotada no projeto foi o
@@ -47,11 +58,11 @@ Discuta como a configuração do projeto foi feita na ferramenta de versionament
 
 Apresente a divisão de papéis entre os membros do grupo.
 
-Exemplificação: A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para definição do processo de desenvolvimento. A equipe está organizada da seguinte maneira:
-- Scrum Master: Felipe Domingos;
-- Product Owner: Rommel Carneiro;
-- Equipe de Desenvolvimento: Pedro Penna, Pedro Ivo, Rodrigo Richard;
-- Equipe de Design: Simone Nogueira.
+A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para definição do processo de desenvolvimento. A equipe está organizada da seguinte maneira:
+- Scrum Master: Fernando de Araujo Abreu;
+- Product Owner: Daniel de Oliveira Marcelino;
+- Equipe de Desenvolvimento: André Policarpo Paiva Miranda, Hector Florença da Silva Mendes e Isabela Aparecida dos Santos;
+- Equipe de Design: Camila Larissa Gonçalves.
 
 > **Links Úteis**:
 > - [11 Passos Essenciais para Implantar Scrum no seu Projeto](https://mindmaster.com.br/scrum-11-passos/)
@@ -61,6 +72,14 @@ Exemplificação: A equipe utiliza metodologias ágeis, tendo escolhido o Scrum 
 ### Processo
 
 Coloque  informações sobre detalhes da implementação do Scrum seguido pelo grupo. O grupo deverá fazer uso do recurso de gerenciamento de projeto oferecido pelo GitHub, que permite acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
+
+A implementação da metodologia ágil Scrum é feita através da ferramenta Trello, conforme prints abaixo. Utilizamos os cards Backlog do Produto, Backlog da Sprint, Em andamento, Em correção e Concluído para o acompanhamento da execução e alocação da equipe nas tarefas.
+Link - https://trello.com/b/PqT7gCgz/eixo-4-ads
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e4-proj-dad-t3-UAIFood/assets/114960971/89a0dd96-f743-4bce-a15d-ca000a962f24)
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e4-proj-dad-t3-UAIFood/assets/114960971/3c83f28e-62af-4979-89f7-d18ae8b4ba39)
+
  
 > **Links Úteis**:
 > - [Planejamento e Gestáo Ágil de Projetos](https://pucminas.instructure.com/courses/87878/pages/unidade-2-tema-2-utilizacao-de-ferramentas-para-controle-de-versoes-de-software)
@@ -74,9 +93,15 @@ Coloque  informações sobre detalhes da implementação do Scrum seguido pelo g
 
 As ferramentas empregadas no projeto são:
 
-- Editor de código.
-- Ferramentas de comunicação
-- Ferramentas de desenho de tela (_wireframing_)
+•	Editor de código 
+– Visual Studio 2022.
+
+•	Ferramentas de comunicação 
+- Whatsapp: criação do grupo do projeto no whatsapp para comunicação entre os membros do grupo.
+- Trello: criação do projeto no Trello considerando a metodologia ágil na gestão do projeto. Todos os integrantes do grupo sabem das tarefas que estão relacionados e atualizam o status de execução das suas tarefas, otimizando assim a comunicação da equipe.
+
+•	Ferramentas de desenho de tela (wireframing)
+
 
 O editor de código foi escolhido porque ele possui uma integração com o sistema de versão. As ferramentas de comunicação utilizadas possuem integração semelhante e por isso foram selecionadas. Por fim, para criar diagramas utilizamos essa ferramenta por melhor captar as necessidades da nossa solução.
 
