@@ -1,5 +1,9 @@
 # Arquitetura da Solução
 
+Os usuários podem interagir tanto com a aplicação web quanto com a aplicação móvel para acessar informações sobre o restaurante, visualizar menus, fazer pedidos, fazer reservas e fornecer feedback. 
+A aplicação web oferece uma interface acessível por meio de navegadores em computadores desktop e laptops.
+A aplicação móvel é acessível por meio de dispositivos móveis, como smartphones e tablets, e pode ser baixada e instalada pelos usuários por meio de lojas de aplicativos.
+
 
 ![arquitetura de solução](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e4-proj-dad-t3-UAIFood/assets/78970776/9759df3f-526e-483b-a353-c057be149c43)
 
