@@ -25,3 +25,22 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Diagramas d
 
 
 ![wireframe](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e4-proj-dad-t3-UAIFood/assets/78970776/e36d38dd-90b3-41d6-9d20-16fbd04fca49)
+
+![wireframe Site](![Login](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e4-proj-dad-t3-UAIFood/assets/93995106/ddbc6c1a-a62c-4a30-8bc4-ceec63e769af)
+
+![Cadastro](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e4-proj-dad-t3-UAIFood/assets/93995106/cdf5611e-b6d2-4e78-9c6e-51c724aa0351)
+
+![Quem Somos](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e4-proj-dad-t3-UAIFood/assets/93995106/8330b1fa-4705-43f8-b69a-ec29e3d7571c)
+
+![Ofertas da semana](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e4-proj-dad-t3-UAIFood/assets/93995106/8d3fbcf2-588e-43db-a760-fb918e4e3d57)
+
+![Ofertas especiais](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e4-proj-dad-t3-UAIFood/assets/93995106/13946803-b29b-4929-a2aa-1ca9810a099b)
+
+![Meu carrinho](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e4-proj-dad-t3-UAIFood/assets/93995106/8d42f33e-222e-4d58-838e-edb05dc8127f)
+
+![Menu](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e4-proj-dad-t3-UAIFood/assets/93995106/ead73d2f-490e-4056-aa0c-0c04486e97ea)
+
+
+
+
+
