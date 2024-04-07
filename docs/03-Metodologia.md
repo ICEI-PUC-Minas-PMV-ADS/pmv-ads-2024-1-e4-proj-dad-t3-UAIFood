@@ -17,6 +17,10 @@ Plataforma
 - Banco de dados Mongo DB
 - Visual Studio 2022
 - GitHub
+- GitHub Desktop
+- MonoDB
+- Mongo Shell
+- Visual Studio Code
 
 Link de Acesso
 
@@ -95,6 +99,10 @@ As ferramentas empregadas no projeto são:
 
 •	Editor de código 
 – Visual Studio 2022.
+- Visual Studio Code
+- Cmd - Banco de Dados
+- Figma
+- Miro 
 
 •	Ferramentas de comunicação 
 - Whatsapp: criação do grupo do projeto no whatsapp para comunicação entre os membros do grupo.

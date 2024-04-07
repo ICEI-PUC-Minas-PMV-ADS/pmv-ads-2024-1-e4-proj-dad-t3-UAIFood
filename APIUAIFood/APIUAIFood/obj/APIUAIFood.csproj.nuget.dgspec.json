@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Fernando\\Cursos\\Puc-Minas\\Tecn_ADS\\Eixo 4_2024-1\\Microfundamentos\\API e Web Service\\APIUAIFood\\APIUAIFood\\APIUAIFood.csproj": {}
+    "C:\\Users\\camil\\OneDrive\\Documents\\GitHub\\pmv-ads-2024-1-e4-proj-dad-t3-UAIFood\\APIUAIFood\\APIUAIFood\\APIUAIFood.csproj": {}
   },
   "projects": {
-    "C:\\Fernando\\Cursos\\Puc-Minas\\Tecn_ADS\\Eixo 4_2024-1\\Microfundamentos\\API e Web Service\\APIUAIFood\\APIUAIFood\\APIUAIFood.csproj": {
+    "C:\\Users\\camil\\OneDrive\\Documents\\GitHub\\pmv-ads-2024-1-e4-proj-dad-t3-UAIFood\\APIUAIFood\\APIUAIFood\\APIUAIFood.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Fernando\\Cursos\\Puc-Minas\\Tecn_ADS\\Eixo 4_2024-1\\Microfundamentos\\API e Web Service\\APIUAIFood\\APIUAIFood\\APIUAIFood.csproj",
+        "projectUniqueName": "C:\\Users\\camil\\OneDrive\\Documents\\GitHub\\pmv-ads-2024-1-e4-proj-dad-t3-UAIFood\\APIUAIFood\\APIUAIFood\\APIUAIFood.csproj",
         "projectName": "APIUAIFood",
-        "projectPath": "C:\\Fernando\\Cursos\\Puc-Minas\\Tecn_ADS\\Eixo 4_2024-1\\Microfundamentos\\API e Web Service\\APIUAIFood\\APIUAIFood\\APIUAIFood.csproj",
-        "packagesPath": "C:\\Users\\ferna\\.nuget\\packages\\",
-        "outputPath": "C:\\Fernando\\Cursos\\Puc-Minas\\Tecn_ADS\\Eixo 4_2024-1\\Microfundamentos\\API e Web Service\\APIUAIFood\\APIUAIFood\\obj\\",
+        "projectPath": "C:\\Users\\camil\\OneDrive\\Documents\\GitHub\\pmv-ads-2024-1-e4-proj-dad-t3-UAIFood\\APIUAIFood\\APIUAIFood\\APIUAIFood.csproj",
+        "packagesPath": "C:\\Users\\camil\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\camil\\OneDrive\\Documents\\GitHub\\pmv-ads-2024-1-e4-proj-dad-t3-UAIFood\\APIUAIFood\\APIUAIFood\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ferna\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\camil\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -38,6 +39,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -76,7 +82,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
