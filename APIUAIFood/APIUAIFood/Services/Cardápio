@@ -1,3 +1,8 @@
+﻿using APIUAIFood.Models;
+using MongoDB.Driver;
+using Microsoft.Extensions.Options;
+namespace APIUAIFood.Services
+
 db.services.insertMany([    
     
 { 
