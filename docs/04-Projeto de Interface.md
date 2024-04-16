@@ -42,6 +42,7 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Diagramas d
 
 ![Menu](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e4-proj-dad-t3-UAIFood/assets/93995106/ead73d2f-490e-4056-aa0c-0c04486e97ea)
 
+link do figma: https://www.figma.com/file/W9Ixm1itxBSZqAJD6r7Jea/UAIFood?type=design&node-id=0-1&mode=design&t=Fpi3nqBJy2NP4rf9-0
 
 
 
