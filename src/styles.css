@@ -1,0 +1,138 @@
+/* Reset de estilos */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos globais */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #FFFFFF; /* Branco */
+  color: #333333; /* Cinza escuro */
+}
+
+.container {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Estilos do cabeçalho */
+header {
+  background-color: #AA0000; /* Vermelho escuro */
+  padding: 20px 0;
+  transition: top 0.3 ease;
+  z-index: 1000;
+}
+
+.logo {
+  color: #FFFFFF; /* Branco */
+  font-size: 24px;
+  font-weight: bold;
+  margin-right: auto;
+  top: 0;
+}
+.sliding-header.scrolled {
+  top: -80px; /* Escondendo o cabeçalho ao rolar a página */
+}
+nav ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin-left: 20px;
+}
+
+nav ul li a {
+  color: #FFFFFF; /* Branco */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #fdfdfd; /* Amarelo */
+}
+
+/* Estilos da seção de destaque */
+.hero {
+  background-color: #fafaf8; /* Amarelo claro */
+  color: #333333; /* Cinza escuro */
+  padding: 100px 0;
+  text-align: center;
+}
+
+.hero-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.hero h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #AA0000; /* Vermelho escuro */
+  color: #FFFFFF; /* Branco */
+  padding: 10px 20px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #f8f6f2; /* Amarelo */
+}
+
+/* Estilos das outras seções */
+section {
+  padding: 100px 0;
+}
+
+section h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+/*Estilos do carrossel */
+
+.slider img {
+ width: 100%; /* Ajuste de tamanho das imagens */
+ height: 350px;
+ left:300px;
+}
+/* Estilos do formulário de contato */
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+form button {
+  background-color: #AA0000; 
+  color: #FFFFFF; 
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #FFAA00; 
+}
+
+/* Estilos do rodapé */
+footer {
+  background-color: #333333; 
+  color: #FFFFFF; 
+  text-align: center;
+  padding: 20px 0;
+}
