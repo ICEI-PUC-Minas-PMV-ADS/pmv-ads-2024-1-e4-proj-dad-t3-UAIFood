@@ -15,41 +15,50 @@ body {
 .container {
   width: 80%;
   max-width: 1200px;
-  margin: 0 auto;
+  margin:  auto;
 }
 
 /* Estilos do cabeçalho */
 header {
+  
   background-color: #AA0000; 
-  padding: 20px 0;
+  padding: 8px 0;
   transition: top 0.3 ease;
   z-index: 1000;
 }
 
 .logo {
-  color: #FFFFFF; 
-  font-size: 24px;
-  font-weight: bold;
-  margin-right: auto;
-  top: 0;
+  bottom: -10px;
+    right: 120px;
+    position: relative;
+    padding: 0px 0px;
+    width: 60px; 
+    height: 70px; 
+    border-radius: 10%; 
+    box-shadow: 10px 20px 10px rgba(0, 0, 0, 0.5); 
 }
 .sliding-header.scrolled {
-  top: -80px; 
+  top: -0px; 
 }
 nav ul {
-  list-style-type: none;
+  position: relative;
+  top: -40px;
   text-align: center;
+  margin: auto;
+  
 }
 
 nav ul li {
+  
   display: inline;
-  margin-left: 20px;
+  margin-left: 30px;
 }
 
 nav ul li a {
   color: #FFFFFF; 
   text-decoration: none;
   transition: color 0.3s ease;
+  
 }
 
 nav ul li a:hover {
@@ -60,7 +69,7 @@ nav ul li a:hover {
 .hero {
   background-color: #fafaf8; 
   color: #333333; 
-  padding: 100px 0;
+  padding: 50px 0;
   text-align: center;
 }
 
