@@ -10,3 +10,17 @@ $(document).ready(function(){
     cssEase: 'linear'
   });
 });
+
+function comprar(nome, tamanho, valor) {
+  var quantidade = parseInt(prompt("Quantidade desejada:"));
+  if (!isNaN(quantidade) && quantidade > 0) {
+    var total = quantidade * valor;
+    alert("Compra realizada!\n" + 
+          "Produto: " + nome + "\n" +
+          "Tamanho: " + tamanho + "\n" +
+          "Quantidade: " + quantidade + "\n" +
+          "Total: R$ " + total.toFixed(2));
+  } else {
+    alert("Quantidade inválida!");
+  }
+}

@@ -13,14 +13,22 @@ body {
 }
 
 .container {
-  width: 80%;
+  width: 90%;
   max-width: 1200px;
-  margin:  auto;
+  min-width: 320px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+  
 }
 
 /* Estilos do cabeçalho */
 header {
-  
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  padding: 10px 0;
+  width: 100%;
   background-color: #AA0000; 
   padding: 8px 0;
   transition: top 0.3 ease;
@@ -144,4 +152,6 @@ footer {
   color: #FFFFFF; 
   text-align: center;
   padding: 20px 0;
+  
 }
+

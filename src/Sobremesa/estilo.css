@@ -1,45 +1,26 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f9f9f9;
+
+
+.Titulo h1 {
     text-align: center;
-}
-
-header {
-    background-color: #AA0000;
-    color: white;
-    padding: 0,5px 0;
-    
-    
-
-}
-
-h1 {
-    margin-top: 0px;
-    position: relative; 
-    top: -30px; 
-    
-}
-/* Logo do Site */
-.logo {
-    bottom: -10px;
-    position: relative;
-    padding: 0px 0px;
-    width: 60px; 
-    height: 70px; 
-    border-radius: 10%; 
-    box-shadow: 10px 20px 10px rgba(0, 0, 0, 0.5); 
-    
+    text-transform: unset;
+    border-radius: 30px;
+    font-size: 36px;
+    font-family: "Arial Black" sans-serif;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0, 0,5);
+  
 }
 
 main {
-    padding: 20px;
+    padding: center;
+    margin: auto;
+    position: relative;
 }
 
 .sobremesa {
-    margin: 20px;
-    padding: 20px;
+    margin: 15px;
+    padding: 15px;
     background-color: white;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
@@ -49,8 +30,8 @@ main {
 
 img {
     width: 100%;
-    height: auto;
     border-radius: 8px;
+    
 }
 
 h2 {
