@@ -48,11 +48,46 @@
   }
   
   .quantidade {
-    width: 50px;
-    
+  background-color: #c1c9c1;
+  border: none;
+  color: white;
+  padding: 5px 3px;
+  text-align: center;
+  font-size: 13px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  border-radius: 25px;
   }
-  
-  
+  /* Butoon de Ver mais */
+  .quantity {
+  display: flex;
+  align-items: center;
+}
+
+.buttons {
+  margin-left: auto;
+}
+
+.ver-mais {
+  background-color: white; /* Tema vermelho */
+  color: red;
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin-top: 5px;
+  margin-left: 76%; /*Movendo a escrita pro lado */
+  border-radius: 300px;
+  display: flex; /* Para ocupar toda a largura do contêiner */
+}
+
+.ver-mais:hover {
+  background-color: #ec8f8f; /* Tom de vermelho mais escuro no hover */
+}
+
   @media (max-width: 768px) {
     .produto {
       width: 100%; /* Definindo 100% da largura para que cada produto ocupe toda a largura em telas menores */

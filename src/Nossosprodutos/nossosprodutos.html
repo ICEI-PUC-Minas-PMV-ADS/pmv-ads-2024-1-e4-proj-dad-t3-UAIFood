@@ -15,7 +15,7 @@
       <a href="../home.html"><img src="../img/uaifoodLogo.jpeg" alt="UAIFooD" class="logo"><a\>
     <nav>
         <ul>
-          <li><a href="home.html">Home</a></li>
+          <li><a href="../home.html">Home</a></li>
           <li><a href="#Nossos Produtos">Nossos Produtos</a></li>
           <li><a href="/src/Sobremesa/index.html">Cardapio</a></li>
           <li><a href="#contato">Contato</a></li>
@@ -24,6 +24,7 @@
     </div>
   </header>
 
+  
   <div class="produto">
     <div class="foto"><img src="../img/images.jpeg" alt="Produto A"></div>
     <div class="informacoes">
@@ -45,8 +46,14 @@
       <button onclick="comprar('Produto B', 'Único', 29.99)">Comprar</button>
     </div>
   </div>
+  
 
   <div class="produto">
+    <div class="quantity">
+      <div class="buttons">
+      </div>
+    </div>
+    <a href="outra_pagina.html" class="ver-mais">Ver Mais...</a>
     <div class="foto"><img src="../img/images.jpeg" alt="Produto B"></div>
     <div class="informacoes">
       <h3>Produto B</h3>
@@ -55,14 +62,16 @@
       <input type="number" class="quantidade" value="1">
       <button onclick="comprar('Produto B', 'Único', 29.99)">Comprar</button>
     </div>
+
+
   </div><div class="produto">
     <div class="foto"><img src="../img/images.jpeg" alt="Produto B"></div>
     <div class="informacoes">
       <h3>Produto B</h3>
       <p class="valor">R$ 29,99</p>
       <p class="tamanho">Quantidade: 500g</p>
-      <input type="number" class="quantidade" value="1">
       <button onclick="comprar('Produto B', 'Único', 29.99)">Comprar</button>
+      <button id="cancelar-btn">Cancelar</button>
     </div>
   </div>
 
@@ -77,6 +86,11 @@
     </div>
   </div>
   <div class="produto">
+    <div class="quantity">
+      <div class="buttons">
+      </div>
+    </div>
+    <a href="outra_pagina.html" class="ver-mais">Ver Mais...</a>
     <div class="foto"><img src="../img/images.jpeg" alt="Produto A"></div>
     <div class="informacoes">
       <h3>Produto A</h3>
@@ -94,7 +108,7 @@
     </div>
   </footer>
 
-
+  
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
   <script src="../scripts.js"></script>
