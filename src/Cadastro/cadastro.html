@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro - Restaurante UAIFooD</title>
+  <style>
+    /* Estilos da tela de cadastro */
+    body, html {
+      height: 100%;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #f2f2f2;
+    }
+
+    .cadastro {
+      width: 300px;
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    .cadastro h2 {
+      font-size: 32px;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    .cadastro form input {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    .cadastro form button {
+      width: 323px;
+      background-color: #AA0000;
+      color: #FFFFFF;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .cadastro form button:hover {
+      background-color: #FFAA00;
+    }
+
+    .cadastro p {
+      margin-top: 20px;
+      font-size: 16px;
+      text-align: center;
+    }
+
+    .cadastro p a {
+      color: #AA0000;
+      text-decoration: none;
+    }
+
+    .cadastro p a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="cadastro">
+    <h2>Cadastro</h2>
+    <form action="#" method="post">
+      <input type="text" name="nome" placeholder="Seu Nome" required>
+      <input type="email" name="email" placeholder="Seu E-mail" required>
+      <input type="password" name="password" placeholder="Sua Senha" required>
+      <button type="submit">Cadastrar</button>
+    </form>
+    <p>Já tem uma conta? <a href="/src/Login/login.html">Faça login</a></p>
+  </div>
+</body>
+</html>

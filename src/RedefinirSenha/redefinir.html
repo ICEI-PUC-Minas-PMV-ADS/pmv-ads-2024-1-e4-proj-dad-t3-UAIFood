@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recuperação de Senha - Restaurante UAIFooD</title>
+  <style>
+    /* Estilos da tela de recuperação de senha */
+    body, html {
+      height: 100%;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #f2f2f2;
+    }
+
+    form {
+      width: 300px;
+      padding: 20px;
+    }
+
+    h2 {
+      font-size: 24px;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    input {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    button {
+      width: 323px;
+      background-color: #AA0000;
+      color: #FFFFFF;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #FFAA00;
+    }
+
+    p {
+        margin-left: 20px;
+      margin-top: 20px;
+      font-size: 16px;
+      text-align: center;
+    }
+
+    p a {
+      color: #AA0000;
+      text-decoration: none;
+    }
+
+    p a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <form action="#" method="post">
+    <h2>Recuperação de Senha</h2>
+    <input type="email" name="email" placeholder="Seu E-mail" required>
+    <button type="submit">Enviar Link de Recuperação</button>
+  </form>
+  <p>Lembrou a senha? <a href="/src/Login/login.html">Faça login</a></p>
+</body>
+</html>
