@@ -14,7 +14,7 @@ Nossa equipe de desenvolvedores de sistemas web foi contratada para criar uma ap
 * Camila Larissa Gonçalves
 * Daniel de Oliveira Marcelino
 * Fernando de Araujo Abreu
-* Hector Florença da Silva Mendes
+* Hector Florença da Silva 
 * Isabela Aparecida dos Santos
 
 ## Orientador

@@ -1,0 +1,39 @@
+
+
+.Titulo h1 {
+    text-align: center;
+    text-transform: unset;
+    border-radius: 30px;
+    font-size: 36px;
+    font-family: "Arial Black" sans-serif;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0, 0,5);
+  
+}
+
+main {
+    padding: center;
+    margin: auto;
+    position: relative;
+}
+
+.sobremesa {
+    margin: 15px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    display: inline-block;
+    width: 250px;
+}
+
+img {
+    width: 100%;
+    border-radius: 8px;
+    
+}
+
+h2 {
+    margin-top: 10px;
+}

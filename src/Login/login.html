@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login - Restaurante UAIFooD</title>
+  <style>
+    /* Estilos da tela de login */
+    body, html {
+      height: 100%;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #f2f2f2;
+    }
+    .login {
+      padding: 50px 0;
+      text-align: center;
+    }
+
+    .login h2 {
+      font-size: 32px;
+      margin-bottom: 20px;
+    }
+
+    .login form {
+      width: 300px;
+      margin: 0 auto;
+    }
+
+    .login input {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    .login button {
+      width: 100%;
+      background-color: #AA0000;
+      color: #FFFFFF;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .login button:hover {
+      background-color: #FFAA00;
+    }
+
+    .login p {
+      margin-top: 20px;
+      font-size: 16px;
+    }
+
+    .login p a {
+      color: #AA0000;
+      text-decoration: none;
+    }
+
+    .login p a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="content">
+    <section class="login">
+      <div class="container">
+        <h2>Login</h2>
+        <form action="#" method="post">
+          <input type="email" name="email" placeholder="Seu E-mail" required>
+          <input type="password" name="password" placeholder="Sua Senha" required>
+          <button type="submit">Entrar</button>
+        </form>
+        <p>Deseja redefinir sua senha? <a href="../RedefinirSenha/redefinir.html">Clique aqui</a></p>
+        <p>Não tem uma conta? <a href="../Cadastro/cadastro.html">Cadastre-se</a></p>
+      </div>
+    </section>
+  </div>
+</body>
+</html>

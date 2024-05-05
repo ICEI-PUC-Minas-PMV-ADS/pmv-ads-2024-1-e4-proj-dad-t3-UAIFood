@@ -1,0 +1,102 @@
+﻿using APIUAIFood.Models;
+using MongoDB.Driver;
+using Microsoft.Extensions.Options;
+namespace APIUAIFood.Services
+
+db.services.insertMany([    
+    
+{ 
+    "Nome": "Feijão Tropeiro",
+    "Price": "45", 
+    "Tamanho": "400g",
+    "Categoria": "servives" 
+}, 
+
+
+    { 
+        "Nome": "Bambá de Couve",
+         "Price": "30",
+          "Tamanho": "600g",
+           "Categoria": "servives" 
+},  
+
+
+       {
+        
+        "Nome": "Frango ao Molho Pardo", 
+       "Price": "45,00",
+        "Tamanho": "900g",
+         "Categoria": "servives"
+        
+        },  
+
+
+          { "Nome": "Frango com Ora-pro-nobis",
+           "Price": "50,00",
+            "Tamanho": "400g",
+             "Categoria": "servives"
+            
+            },   
+            
+          
+          
+          { "Nome": "Frango com Quiabo",
+           "Price": "40,00",
+            "Unidades": "10",
+             "Categoria": "servives" 
+            
+            },
+            
+            
+               { 
+                
+               "Nome": "Leitão à Pururuca", 
+               "Price": "40,50",
+                "Unidades": "8", 
+                "Categoria": "servives"
+            
+            },   
+
+
+                 {
+                    "Nome": "Tutu à Mineira",
+                 "Price": "35,99",
+                  "Unidades": "10",
+                   "Categoria": "servives"
+                
+                },  
+
+                   { 
+                    
+                   "Nome": "Vaca Atolada",
+                    "Price": "48,90",
+                     "Tamanho": "500g",
+                      "Categoria": "servives" 
+                    
+                    },  
+
+
+                      { 
+                        "Nome": "Feijoada",
+                         "Price": "45,80", 
+                         "Tamanho": "300g",
+                          "Categoria": "servives" 
+                        
+                        },   
+
+
+                        { "Nome": "Tutu",
+                        "Price": "40,00", 
+                        "Tamanho": "600g", 
+                        "Categoria": "servives"
+                    
+                    },  
+
+                           { 
+                            
+                           "Nome": "Polenta", 
+                           "Price": "36,99",
+                            "Tamanho": "600g",
+                             "Categoria": "servives"
+                             
+                             } ])
