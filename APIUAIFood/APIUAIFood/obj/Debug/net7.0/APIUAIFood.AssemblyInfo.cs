@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("APIUAIFood")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8b795bcfc54a66ddac1c92709b99bec864733227")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+93b6289c8921e73e76634aafb2742248ba7005cf")]
 [assembly: System.Reflection.AssemblyProductAttribute("APIUAIFood")]
 [assembly: System.Reflection.AssemblyTitleAttribute("APIUAIFood")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
