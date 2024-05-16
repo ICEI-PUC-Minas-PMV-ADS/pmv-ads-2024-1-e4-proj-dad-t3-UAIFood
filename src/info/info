@@ -1,0 +1,131 @@
+<body>
+  <header>
+    <div class="container">
+      <a href="home.html"><img src="img/uaifoodLogo.jpeg" alt="UAIFooD" class="logo"><a\>
+    <nav>
+      <a href="home.html"><img src="img/uaifoodLogo.jpeg" alt="UAIFooD" class="logo"></a>
+      <nav>
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="Nossosprodutos/nossosprodutos.html">Nossos Produtos</a></li>
+          <li><a href="/src/Sobremesa/index.html">Cardapio</a></li>
+          <li><a href="#contato">Contato</a></li>
+          <li><a href="Login/login.html">Login</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="container">
+      <div class="slider">
+        <div><a><img src="img/culinaria-mineira-cpt.jpg" alt="Slide 1"></a></div>
+        <div><a><img src="img/images.jpeg" alt="Slide 2"></a></div>
+        <div><a><img src="img/canva-a-8nFF3WvDI.jpg" alt="Slide 3"></a></div>
+      </div>
+      <div class="hero-content">
+        <h2>Descubra uma experiência única de sabor</h2>
+        <p>Conheça nossos pratos exclusivos e saboreie o melhor da gastronomia.</p>
+        <a href="Sobremesa/index.html" class="btn">Ver Cardapio</a>
+
+  <div class="content">
+    <section id="home" class="hero">
+      <div class="container">
+        <div class="slider">
+          <div><a><img src="img/culinaria-mineira-cpt.jpg" alt="Slide 1"></a></div>
+          <div><a><img src="img/images.jpeg" alt="Slide 2"></a></div>
+          <div><a><img src="img/canva-a-8nFF3WvDI.jpg" alt="Slide 3"></a></div>
+        </div>
+        <div class="hero-content">
+          <h2>Descubra uma experiência única de sabor</h2>
+          <p>Conheça nossos pratos exclusivos e saboreie o melhor da gastronomia.</p>
+          <a href="Sobremesa/index.html" class="btn">Ver Cardapio</a>
+        </div>
+      </div>
+    </div>
+  </section>
+    </section>
+
+  <section id="sobre" class="about">
+    <div class="container">
+      <h2>Sobre o UAIFooD</h2>
+      <p>UAIFooD é um restaurantes reconhecida por sua excelência gastronômica e ambiente acolhedor.</p>
+    </div>
+  </section>
+    <section id="sobre" class="about">
+      <div class="container">
+        <h2>Sobre o UAIFooD</h2>
+        <p>UAIFooD é um restaurantes reconhecida por sua excelência gastronômica e ambiente acolhedor.</p>
+      </div>
+    </section>
+
+  <section id="menu" class="menu">
+    <div class="container">
+      <h2>Menu</h2>
+      <!-- Aqui você pode adicionar o menu do restaurante -->
+    </div>
+  </section>
+    <section id="menu" class="menu">
+      <div class="container">
+        <h2>Menu</h2>
+        <!-- Aqui você pode adicionar o menu do restaurante -->
+      </div>
+
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante - Sobre nós</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Sobre Nós</h1>
+        </header>
+        <section id="nossa-historia">
+            <h2>Nossa História</h2>
+            <p>Há mais de 40 anos, em Bele Hprizonte, nasceu uma ideia que viria a se tornar um marco na 
+              gastronomia local: o restaurante "UAIFood".</p>
+        </section>
+        <section id="missao">
+            <h2>Missão</h2>
+            <p>Nosso restaurante de comida mineira, com mais de 40 anos de existência, tem como missão proporcionar 
+              aos nossos clientes uma experiência gastronômica autêntica</p>
+        </section>
+        <section id="visao">
+            <h2>Visão</h2>
+            <p>Valorizamos e preservamos a autenticidade da culinária mineira,
+               honrando as tradições e técnicas culinárias transmitidas ao longo de décadas.</p>
+        </section>
+        <section id="endereco">
+            <h2>Endereço</h2>
+            <p>Avenida Brasil, 12, centro, 360010 - 555, BH</p>
+        </section>
+    </div>
+    <script src="script.js"></script>
+    </section>
+
+  <section id="contato" class="contact">
+    <div class="container">
+      <h2>Entre em Contato</h2>
+      <p>Ficou com dúvidas ou quer fazer uma reserva? Entre em contato conosco!</p>
+      <form action="#" method="post">
+        <input type="text" name="nome" placeholder="Seu Nome" required>
+        <input type="email" name="email" placeholder="Seu E-mail" required>
+        <textarea name="mensagem" placeholder="Sua Mensagem" required></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+  </section>
+    <section id="contato" class="contact">
+      <div class="container">
+        <h2>Entre em Contato</h2>
+        <p>Ficou com dúvidas ou quer fazer uma reserva? Entre em contato conosco!</p>
+        <form action="#" method="post">
+          <input type="text" name="nome" placeholder="Seu Nome" required>
+          <input type="email" name="email" placeholder="Seu E-mail" required>
+          <textarea name="mensagem" placeholder="Sua Mensagem" required></textarea>
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
+    </section>
+  </div>
+  
