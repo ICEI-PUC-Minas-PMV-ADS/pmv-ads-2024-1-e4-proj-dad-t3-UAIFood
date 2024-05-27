@@ -12,25 +12,27 @@
   
 }
 
-main {
-    padding: center;
-    margin: auto;
-    position: relative;
-}
+.produto {
+    width: calc(25% - 20px);
+    display: inline-block;
+    grid-template-columns: repeat(auto-fill, 200px);
+    }
 
 .sobremesa {
-    margin: 15px;
-    padding: 15px;
+    height: 500px;
+    margin: 10px;
+    padding: 10px;
     background-color: white;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
-    display: inline-block;
-    width: 250px;
+    overflow: hidden;
+    font-size: 15px;
 }
 
 img {
     width: 100%;
-    border-radius: 8px;
+    margin: 10px;
+    height: 180px;
     
 }
 
