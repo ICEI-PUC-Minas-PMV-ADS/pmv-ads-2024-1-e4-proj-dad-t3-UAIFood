@@ -26,6 +26,7 @@ const styles = StyleSheet.create({
     borderRadius:8,
     padding: 10,
     paddingTop: 8,
+    marginBottom: 10
   },
   maskedInput: {
     flexGrow: 1,
@@ -74,6 +75,17 @@ const styles = StyleSheet.create({
   },
   loginButtonTitle: {
     fontWeight: 'bold',
+    color: 'white',
+  },
+  registerContainer: {
+    flexDirection: 'row',
+    backgroundColor: 'red',
+    paddingHorizontal: 10,
+    paddingVertical: 5,
+    borderRadius: 5,
+  },
+
+  registerText: {
     color: 'white',
   },
 });

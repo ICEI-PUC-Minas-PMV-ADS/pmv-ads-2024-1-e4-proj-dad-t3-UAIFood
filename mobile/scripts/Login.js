@@ -1,51 +1,76 @@
 import React, { useState } from 'react';
-import { StyleSheet, View, KeyboardAvoidingView, Platform, ScrollView, Image } from 'react-native';
-import { Input, Text } from 'react-native-elements';
+import { View, KeyboardAvoidingView, Platform, ScrollView, Image, TextInput } from 'react-native';
+import { Text } from 'react-native-elements';
 import { Button } from '@rneui/themed';
-import styles from '../style/MainStyle';
+import styles from '../style/LoginStyle';
+import { lerUsuarios } from '../users/UsuarioDB';
+import { Alert } from 'react-native';
+import { useNavigation } from '@react-navigation/native';
 
-export default function Login({ navigation }) {
+export default function Login() {
   const [email, setEmail] = useState(null);
   const [password, setPassword] = useState(null);
+  const navigation = useNavigation();
 
-  const cadastrar = () => {
+  const handleCadastroPress = () => {
     navigation.navigate('Cadastro do usuário');
   };
 
-  const entrar = () => {
-    // Adicione a lógica de login aqui
+  const entrar = async () => {
+    if (!email || !password) {
+      Alert.alert('Erro', 'Por favor, preencha todos os campos.');
+      return;
+    }
+  
+    try {
+      const usuarios = await lerUsuarios();
+      console.log('Usuários:', usuarios);
+  
+      const usuario = usuarios.find(u => u.email === email && u.senha === password);
+  
+      if (usuario) {
+        Alert.alert('Sucesso', 'Logado com sucesso');
+      } else {
+        Alert.alert('Erro', 'Credenciais inválidas. Por favor, verifique se seu e-mail e senha estão corretos.');
+      }
+    } catch (error) {
+      Alert.alert('Erro', 'Houve um erro ao fazer login. Por favor, tente novamente mais tarde.');
+      console.error('Erro ao fazer login:', error);
+    }
   };
+
 
   return (
     <KeyboardAvoidingView
       style={styles.container}
       behavior={Platform.OS === 'ios' ? 'padding' : null}
-      keyboardVerticalOffset={Platform.OS === 'ios' ? 10 : 0} 
+      keyboardVerticalOffset={Platform.OS === 'ios' ? 10 : 0}
     >
       <ScrollView
         contentContainerStyle={styles.scrollContainer}
       >
         <View style={styles.formContainer}>
-        <Image
+          <Image
             source={require('../assets/images/logo.png')}
             style={styles.logo}
           />
-          <Input
+
+          <TextInput
             placeholder="E-mail"
             placeholderTextColor="gray"
             onChangeText={(value) => setEmail(value)}
             keyboardType="email-address"
-            inputContainerStyle={styles.inputContainerStyle}
-            inputStyle={styles.input}
+            style={styles.input}
           />
-          <Input
+
+          <TextInput
             placeholder="Senha"
             placeholderTextColor="gray"
             onChangeText={(value) => setPassword(value)}
             secureTextEntry={true}
-            inputContainerStyle={styles.inputContainerStyle}
-            inputStyle={styles.input}
+            style={styles.input}
           />
+
           <Button
             title="LOGIN"
             buttonStyle={styles.loginButton}
@@ -54,9 +79,18 @@ export default function Login({ navigation }) {
             onPress={entrar}
           />
 
-          <Text style={styles.registrarTexto} onPress={cadastrar}>
-            Não tem conta? Registrar-se
-          </Text>
+          <View style={{ alignItems: 'center', marginTop: 20 }}>
+            <View style={{flexDirection: 'row', alignItems: 'center',}}>
+              <Text>
+                Não tem conta?{' '}
+              </Text>
+              <View style={styles.registerContainer}>
+                <Text style={styles.registerText} onPress={handleCadastroPress}>
+                  Registrar-se
+                </Text>
+              </View>
+            </View>
+          </View>
         </View>
       </ScrollView>
     </KeyboardAvoidingView>
