@@ -15,12 +15,12 @@ body {
 .container {
   width: 100%;
   max-width: 100%;
-  min-width: 320px;
+  min-width: 420px;
   margin: 0 auto;
   padding: 0 20px;
   box-sizing: border-box;
-  
 }
+
 
 /* Estilos do cabeçalho */
 header {
@@ -37,7 +37,7 @@ header {
 
 .logo {
   bottom: -10px;
-    right: 120px;
+    right: 10px;
     position: relative;
     padding: 0px 0px;
     width: 60px; 
@@ -82,8 +82,8 @@ nav ul li a:hover {
 }
 
 .hero-content {
-  max-width: 800px;
-  margin: 0 auto;
+ margin-top: 1%;
+ width: auto;
 }
 
 .hero h2 {
@@ -111,7 +111,7 @@ nav ul li a:hover {
 
 /* Estilos das outras seções */
 section {
-  padding: 100px 0;
+  padding: 100px 30px;
 }
 
 section h2 {

@@ -12,28 +12,40 @@
   
 }
 
-main {
-    padding: center;
-    margin: auto;
-    position: relative;
+.produto {
+    width: calc(25% - 20px); /* Definindo 25% da largura - 20px de margem */
+    margin: 0px; /* Espaçamento entre os produtos */
+    display: inline-block;
+    grid-template-columns: repeat(auto-fill, 200px);
+    
+    
 }
 
 .sobremesa {
+    height: 500px;
     margin: 15px;
     padding: 15px;
     background-color: white;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
-    display: inline-block;
-    width: 250px;
+    font-size: 15px;
+    overflow: hidden;
+
+    
 }
 
 img {
     width: 100%;
     border-radius: 8px;
-    
 }
 
 h2 {
     margin-top: 10px;
+}
+
+.produto P {
+   
+    background-color: aqua;
+    
+
 }
