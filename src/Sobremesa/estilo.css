@@ -13,6 +13,7 @@
 }
 
 .produto {
+<<<<<<< HEAD
     width: calc(25% - 20px); /* Definindo 25% da largura - 20px de margem */
     margin: 0px; /* Espaçamento entre os produtos */
     display: inline-block;
@@ -32,11 +33,33 @@
     overflow: hidden;
 
     
+=======
+    width: calc(25% - 20px);
+    display: inline-block;
+    grid-template-columns: repeat(auto-fill, 200px);
+    }
+
+.sobremesa {
+    height: 500px;
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+    font-size: 15px;
+>>>>>>> cdcbbf3282597348cf65f10a4ef2040b13489fac
 }
 
 img {
     width: 100%;
+<<<<<<< HEAD
     border-radius: 8px;
+=======
+    margin: 10px;
+    height: 180px;
+    
+>>>>>>> cdcbbf3282597348cf65f10a4ef2040b13489fac
 }
 
 h2 {
