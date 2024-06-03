@@ -13,11 +13,15 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("APIUAIFood")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f6f9c9458347ba359ac31f0b5797acfbd39d1527")]
 =======
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 >>>>>>> cdcbbf3282597348cf65f10a4ef2040b13489fac
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1be2ce5de46c120afd4ca2e1cba262344b7ca304")]
+>>>>>>> Stashed changes
 [assembly: System.Reflection.AssemblyProductAttribute("APIUAIFood")]
 [assembly: System.Reflection.AssemblyTitleAttribute("APIUAIFood")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

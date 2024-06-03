@@ -5,7 +5,11 @@ $(document).ready(function(){
     autoplaySpeed: 500,
     arrows: false,
     infinite: true,
+<<<<<<< Updated upstream
     speed: 4000,
+=======
+    speed: 2500,
+>>>>>>> Stashed changes
     fade: true,
     cssEase: 'linear'
   });
